@@ -8,14 +8,14 @@
       :to= "{name:'EventList', query:{page: page - 1}}"
       rel="prev"
       v-if="page != 1"
-    >&#60; Prev</router-link
+    > Prev</router-link
     >
     <router-link
     id="next-prev"
       :to= "{name:'EventList', query:{page: page + 1}}"
       rel="next"
       v-if= "hasNextPage"      
-    >Next &#63;</router-link>
+    >Next </router-link>
     </div>
   </div>
 </template>
